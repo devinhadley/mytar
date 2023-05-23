@@ -6,4 +6,4 @@ Supports the creation, extraction, and listing of tar archives.
 Usage: mytar [ctxvS]f tarfile [ path [ ... ] ]
 
 Mytar is a subset of tar and only supports five options. One of ‘c’, ‘t’, or ‘x’ is required to be
-present. Traditionally, ‘f’ is optional, but you are not required to support its being absent.
+present. In this implementation f is a required flag.
